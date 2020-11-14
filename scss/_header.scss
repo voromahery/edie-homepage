@@ -7,6 +7,14 @@
     justify-content: space-between;
 }
 
+.header__article,
+.header__wrapper div,
+figure,
+.masthead {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .header__intro,
 .header__intro--heading,
 .header__article--heading,
@@ -29,7 +37,7 @@
 .header__article--heading {
     font-size: 24px;
     line-height: 36px;
-    color: #333333;
+    color: $heading-color;
     margin: 0;
 }
 
@@ -47,7 +55,7 @@
 .header__article--paragraph {
     font-weight: normal;
     font-size: 12px;
-    color: #4F4F4F;
+    color: $paragraph-color;
     margin-top: 33px;
     margin-bottom: 33px;
 }
@@ -72,6 +80,7 @@
     background: $white;
     height: 47px;
     padding-left: 19px;
+    padding-right: 4px;
 }
 
  .header__input {

@@ -7,14 +7,28 @@
 @mixin icon-common-props {
         background-repeat: no-repeat;
         background-size: contain;
+
+}
+
+@mixin card-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 116px;
+    height: 100%;
+    min-height: 42px;
 }
 
 // Images and icons path
 $icon-path:"../icons/";
 
 // Color and background
-
 $primary-color: #2D9CDB;
 $white: #F2F2F2;
+$light-grey: #E0E0E0;
+$paragraph-color: #4F4F4F;
+$heading-color: #333333;
+
+// Padding
 $padding-left-mobile: 10px;
 $paddin-right-mobile: 19px;

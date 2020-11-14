@@ -8,8 +8,20 @@ ul {
     @include list-reset;
 }
 
+button,
+a {
+    cursor: pointer;
+}
+
 img,
 button,
 input {
     width: 100%;
+}
+
+.section__service--heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
 }
