@@ -14,65 +14,6 @@ button,
 input {
   width: 100%; }
 
-.section__service--heading {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  color: #333333; }
-
-.card-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  max-width: 116px;
-  height: 100%;
-  min-height: 42px;
-  border-radius: 12px; }
-
-section {
-  margin-top: 51px; }
-
-section article {
-  margin-top: 43px;
-  margin-bottom: 43px; }
-
-article:nth-child(odd) .card {
-  background: #FFFFFF;
-  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
-  border-radius: 24px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 43px;
-  padding-top: 43px; }
-
-.article__design--heading,
-.article__front-end--heading,
-.article__back-end--heading {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #333333; }
-
-.article__design--paragraph,
-.article__front-end--paragraph,
-.article__back-end--paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #4F4F4F;
-  margin-top: 30px;
-  margin-bottom: 30px; }
-
-@media (min-width: 300px) {
-  section {
-    margin-top: 102px; }
-  section article {
-    margin-top: 86px;
-    margin-bottom: 86px; }
-  article:nth-child(odd) .card {
-    padding-left: 34px;
-    padding-right: 34px; } }
-
 .masthead {
   display: flex;
   flex-direction: row;
@@ -142,19 +83,22 @@ figure,
   padding-left: 19px;
   padding-right: 4px; }
 
+.header__input,
+.form__button {
+  height: 100%;
+  max-height: 39px; }
+
 .header__input {
   border: solid 1px transparent;
   background-color: transparent; }
 
 .form__button {
-  height: 100%;
   font-size: 14px;
   line-height: 21px;
   color: #F2F2F2;
   background: #2D9CDB;
   border: solid 1px #2D9CDB;
-  max-width: 71px;
-  max-height: 39px; }
+  max-width: 71px; }
 
 @media (min-width: 300px) {
   main {
@@ -178,25 +122,104 @@ figure,
 .navigation__list {
   display: none; }
 
-.section__service--heading,
-.article__design {
+.section__service--heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333; }
+
+.card-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 116px;
+  height: 100%;
+  min-height: 42px;
+  border-radius: 12px; }
+
+section {
+  margin-top: 51px; }
+
+section article {
+  margin-top: 43px;
+  margin-bottom: 43px; }
+
+article:nth-child(odd) .card {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 43px;
+  padding-top: 43px; }
+
+.article__design--heading,
+.article__front-end--heading,
+.article__back-end--heading {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333; }
+
+.article__design--paragraph,
+.article__front-end--paragraph,
+.article__back-end--paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4F4F4F;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.section__service article:nth-child(even) {
   padding-left: 10px;
   padding-right: 10px; }
 
-.article__design--button {
+.section__service article:nth-child(even) button {
   background: #E0E0E0;
   border: solid 1px #E0E0E0;
   color: #828282; }
 
+.section__service .card img {
+  max-width: 27px;
+  padding: 10px;
+  border-radius: 8px; }
+
 @media (min-width: 300px) {
-  .section__service--heading,
-  .article__design {
+  section {
+    margin-top: 102px; }
+  .section__service article {
+    margin-top: 86px;
+    margin-bottom: 86px; }
+  article:nth-child(odd) .card {
+    padding-left: 34px;
+    padding-right: 34px; }
+  .section__service .card img {
+    max-width: 27px;
+    padding: 20px;
+    border-radius: 16px; }
+  .section__service article:nth-child(even) {
+    padding-left: 49px;
+    padding-right: 49px; } }
+
+.section__service--heading {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.create_icon {
+  background-color: #2D9CDB; }
+
+@media (min-width: 300px) {
+  .section__service--heading {
     padding-left: 49px;
     padding-right: 49px; } }
 
 .article__front-end {
   padding-left: 5px;
   padding-right: 5px; }
+
+.code_icon {
+  background-color: #27AE60; }
 
 .article__front-end--button {
   background-color: #2D9CDB;
@@ -207,3 +230,6 @@ figure,
   .article__front-end {
     padding-left: 15px;
     padding-right: 15px; } }
+
+.storage_icon {
+  background-color: #EB5757; }

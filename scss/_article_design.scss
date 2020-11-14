@@ -1,20 +1,16 @@
 @import "./variable.scss";
 
-.section__service--heading,
-    .article__design {
+.section__service--heading {
         padding-left: 10px;
         padding-right: 10px;
     }
 
-.article__design--button {
-    background: $light-grey;
-    border: solid 1px $light-grey;
-    color: #828282;
+.create_icon {
+    background-color: $primary-color;
 }
 
 @media (min-width: 300px) {
-    .section__service--heading,
-    .article__design {
+    .section__service--heading {
         padding-left: 49px;
         padding-right: 49px;
     }
