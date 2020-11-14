@@ -7,6 +7,16 @@
     justify-content: space-between;
 }
 
+.masthead__title {
+    font-weight: 800;
+}
+
+.header__intro--heading,
+.header__article--heading,
+.masthead__title {
+    font-size: 24;
+}
+
 .header__article,
 .header__wrapper div,
 figure,
@@ -35,7 +45,6 @@ figure,
 
 .header__intro--heading,
 .header__article--heading {
-    font-size: 24px;
     line-height: 36px;
     color: $heading-color;
     margin: 0;

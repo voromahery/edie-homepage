@@ -1,4 +1,6 @@
 body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #333333;
   margin: auto; }
 
 ul {
@@ -19,6 +21,14 @@ input {
   flex-direction: row;
   align-items: center;
   justify-content: space-between; }
+
+.masthead__title {
+  font-weight: 800; }
+
+.header__intro--heading,
+.header__article--heading,
+.masthead__title {
+  font-size: 24; }
 
 .header__article,
 .header__wrapper div,
@@ -44,7 +54,6 @@ figure,
 
 .header__intro--heading,
 .header__article--heading {
-  font-size: 24px;
   line-height: 36px;
   color: #333333;
   margin: 0; }
@@ -121,6 +130,10 @@ figure,
 
 .navigation__list {
   display: none; }
+
+@media (min-width: 300px) {
+  .navigation {
+    background-size: 100%; } }
 
 .section__service--heading {
   font-weight: 500;
