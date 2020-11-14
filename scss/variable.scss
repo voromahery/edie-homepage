@@ -1,0 +1,13 @@
+// Mixins
+@mixin list-reset {
+    list-style: none;
+    padding: 0;
+}
+
+@mixin icon-common-props {
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
+// Images and icons path
+$icon-path:"../icons/";

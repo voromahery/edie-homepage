@@ -1,0 +1,12 @@
+@import "./variable.scss";
+
+.navigation {
+    background-image: url("#{$icon-path}/menu.svg");
+    @include icon-common-props;
+    width: 18px;
+    height: 18px;
+}
+
+.navigation__list {
+    display: none;
+}

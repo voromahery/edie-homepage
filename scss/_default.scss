@@ -1,0 +1,13 @@
+@import "./variable.scss";
+
+body {
+    margin: auto;
+}
+
+ul {
+    @include list-reset;
+}
+
+img {
+    width: 100%;
+}

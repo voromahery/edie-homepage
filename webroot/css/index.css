@@ -1,0 +1,25 @@
+body {
+  margin: auto; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+img {
+  width: 100%; }
+
+.masthead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.navigation {
+  background-image: url("../icons//menu.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18px;
+  height: 18px; }
+
+.navigation__list {
+  display: none; }
