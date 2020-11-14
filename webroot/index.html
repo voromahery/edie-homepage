@@ -34,12 +34,13 @@
     <main>
         <header class="header">
             <div class="header__wrapper">
-                <p class="header__intro">Unhappy with your website?</p>
-                <h2 class="header__intro--heading">We create beautiful and fast web services</h2>
-                <picture class="">
-                    <source srcset="./images/heroImage.jpg" media="(min-width: 600px)">
+                <div>
+                    <p class="header__intro">Unhappy with your website?</p>
+                    <h2 class="header__intro--heading">We create beautiful and fast web services</h2>
+                </div>
+                <figure class="">
                     <img src="./images/heroImage.jpg" class="header__image" alt="a-man-eplains-something" />
-                </picture>
+                </figure>
             </div>
             <article class="header__article">
                 <h2 class="header__article--heading">Story, emotion and purpose</h2>
@@ -47,14 +48,14 @@
                     We help transform your ideas into real world applications that will outperform your toughest
                     competition and help you achieve your strategic goals in short period of time.
                 </p>
+                <form class="header__form">
+                    <label for="email" class="header__form--label">Want us to contact you?
+                        <div class="form__wrapper">
+                            <input type="text" id="email" class="header__input" placeholder="Email">
+                            <button class="form__button">Join</button>
+                        </div>
+                </form>
             </article>
-            <form class="header__form">
-                <label for="email" class="header__form--label">Want us to contact you?
-                    <div class="form__wrapper">
-                        <input type="text" id="email" class="header__input" placeholder="Email">
-                        <button class="form__button">Join</button>
-                    </div>
-            </form>
         </header>
     </main>
 </body>
