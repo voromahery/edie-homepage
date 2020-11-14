@@ -1,33 +1,15 @@
 @import "./variable.scss";
 
-.article__design--heading {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    color: $heading-color;
-}
-
 .section__service--heading,
     .article__design {
         padding-left: 10px;
         padding-right: 10px;
     }
 
- .article__design--paragraph {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: $paragraph-color;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .article__design--button {
     background: $light-grey;
-    border-radius: 12px;
     border: solid 1px $light-grey;
     color: #828282;
-    @include card-button;
 }
 
 @media (min-width: 300px) {
