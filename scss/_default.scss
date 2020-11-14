@@ -8,6 +8,8 @@ ul {
     @include list-reset;
 }
 
-img {
+img,
+button,
+input {
     width: 100%;
 }
