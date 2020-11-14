@@ -16,6 +16,9 @@ button,
 input {
   width: 100%; }
 
+figure {
+  margin: 0; }
+
 .masthead {
   display: flex;
   flex-direction: row;
@@ -32,7 +35,7 @@ input {
 
 .header__article,
 .header__wrapper div,
-figure,
+.header figure,
 .masthead {
   padding-left: 10px;
   padding-right: 10px; }
