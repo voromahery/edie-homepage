@@ -42,3 +42,12 @@
     border: solid 1px $primary-color;
     max-width: 71px;
  }
+
+
+ @media (min-width: 600px) {
+     
+    .form__label {
+        font-size: 14px;
+        line-height: 21px;
+    }
+ }

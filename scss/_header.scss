@@ -1,6 +1,7 @@
 @import "./variable.scss";
 
 .masthead {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,6 +10,7 @@
 
 .masthead__title {
     font-weight: 800;
+    flex-basis: 50%;
 }
 
 .header__intro--heading,
@@ -77,7 +79,7 @@
     .masthead,
     .header figure {
         padding-left: $padding-left-mobile;
-        padding-right:$paddin-right-mobile;
+        padding-right:$padding-right-mobile;
     }
 
     .header__article,
@@ -86,3 +88,51 @@
         padding-right: 40px;
     }
  }
+
+
+ @media (min-width: 600px) {
+    .masthead__title {
+        font-size: 36px;
+        line-height: 53px;
+    }
+
+    .header__article,
+    .header__wrapper div {
+        padding-left: 227px;
+        padding-right: 227px;
+    }
+
+    .header__wrapper div {
+        max-width: 543px;
+    }
+
+    .header__intro {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .header__intro--heading {
+        font-size: 48px;
+        line-height: 72px;
+    }
+
+    .masthead,
+    .header figure {
+        padding-left: $padding-left-desktop;
+        padding-right: $padding-right-desktop;
+    }
+
+    .header__article {
+        max-width: 366px
+    }
+
+    .header__article--heading {
+        font-size: 48px;
+        line-height: 72px;
+    }
+
+    .header__article--paragraph {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}

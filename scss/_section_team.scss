@@ -1,15 +1,8 @@
 @import "./variable.scss";
 
-// .section__team--images {
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-// }
-
-@import "./variable.scss";
-
 .section__team {
-    padding-left: 10px;
-    padding-right: 14px;
+    padding-left: $padding-left-mobile;
+    padding-right: $padding-right-mobile;
 }
 
 .person__about--activity,
