@@ -5,6 +5,7 @@
 }
 
 @mixin icon-common-props {
+        display: block;
         background-repeat: no-repeat;
         background-size: contain;
 }

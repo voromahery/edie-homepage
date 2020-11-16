@@ -1,6 +1,142 @@
 @import "./variable.scss";
 
-.section__team--images {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+// .section__team--images {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+// }
+
+@import "./variable.scss";
+
+.section__team {
+    padding-left: 10px;
+    padding-right: 14px;
+}
+
+.person__about--activity,
+.section__team--head {
+    line-height: 27px;
+}
+
+.section__team--head {
+    font-size: 16px;
+    color: #EB5757;
+}
+
+.quote q,
+.person__about--name,
+.person__about--activity,
+.section__team--head,
+.section__team--heading {
+    font-weight: 500;
+}
+
+.person__about--name,
+.quote,
+.section__team--heading {
+    color: $heading-color;
+}
+
+.section__team--heading {
+    font-size: 28px;
+    line-height: 50px;
+}
+
+ .section__team--paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: $paragraph-color;
+}
+
+.team__image {
+    border-radius: 12px;
+}
+
+.section__team--images img:nth-child(even) {
+    max-width: 144.76px;
+}
+
+.section__team--images img:nth-child(odd) {
+    max-width: 162.25px;
+}
+
+.note {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.quote {
+   margin-left: 0;
+   margin-right: 0;
+   margin-top: 18px;
+   margin-bottom: 18px;
+}
+
+.quote q,
+.person__about--name {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.person__about--activity,
+.person__about--name {
+    margin-top: calc(12px / 2);
+    margin-bottom: calc(12px / 2);
+}
+
+.person__about--activity {
+    font-size: 16px;
+    color: #828282;
+}
+
+ .small_image {
+    max-width: 81px; 
+    max-height: 81px;
+    border-radius: 12px;
+    margin-right: calc(27px/2);
+ }
+
+.person__wrapper,
+.person__about {
+    display: flex;
+}
+
+.person__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.person__about {
+    flex-direction: column;
+}
+
+@media (min-width: 300px) {
+
+    .section__team--heading {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .section__team--head {
+        font-size: 18px;
+    }
+    
+    .team__image {
+        border-radius: 24px;
+    }
+
+    .quote q,
+    .person__about--name {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .person__about--activity {
+        font-size: 18px;
+    }
+
+    .small_image {
+        margin-right: 27px;
+    }
+
 }

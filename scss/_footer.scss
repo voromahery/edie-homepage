@@ -1,0 +1,99 @@
+@import "./variable.scss";
+
+footer {
+    background-color: #100E1D;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.footer__wrapper {
+    padding-bottom: 133px;
+}
+
+.footer__list--item-link {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer__heading {
+    color: $white;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 53px;
+}
+
+.social__media {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.social__media--list-item {
+    text-indent: -9999px;
+}
+
+.social__media--list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social__media--link {
+    @include icon-common-props;
+    width: 24px;
+    height: 24px;
+}
+
+.instagram {
+    background-image: url("#{$icon-path}instagram.svg");
+}
+
+.linkedin {
+    background-image: url("#{$icon-path}linkedin.svg");
+}
+
+.twitter {
+    background-image: url("#{$icon-path}twitter.svg");
+}
+
+.social__media--list-item {
+    margin-right: 11px;
+}
+
+.developer__wrapper {
+    text-align: center;
+}
+
+.developer {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+.developer__paragraph {
+    margin: 0;
+}
+
+@media (min-width: 300px) {
+    footer {
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+
+    .footer__heading {
+        font-size: 36px;
+    }
+
+    .social__media {
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+
+    .developer {
+        font-size: 14px;
+    }
+}

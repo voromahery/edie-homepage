@@ -11,6 +11,9 @@ button,
 a {
   cursor: pointer; }
 
+a {
+  text-decoration: none; }
+
 img,
 button,
 input {
@@ -77,41 +80,6 @@ figure {
   margin-top: 33px;
   margin-bottom: 33px; }
 
-.header__form--label {
-  font-size: 10px;
-  line-height: 15px;
-  color: #828282; }
-
-.form__button,
-.form__wrapper {
-  border-radius: 12px; }
-
-.form__wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background: #F2F2F2;
-  height: 47px;
-  padding-left: 19px;
-  padding-right: 4px; }
-
-.header__input,
-.form__button {
-  height: 100%;
-  max-height: 39px; }
-
-.header__input {
-  border: solid 1px transparent;
-  background-color: transparent; }
-
-.form__button {
-  font-size: 14px;
-  line-height: 21px;
-  color: #F2F2F2;
-  background: #2D9CDB;
-  border: solid 1px #2D9CDB;
-  max-width: 71px; }
-
 @media (min-width: 300px) {
   main {
     margin-top: 48px; }
@@ -126,6 +94,7 @@ figure {
 
 .navigation {
   background-image: url("../icons//menu.svg");
+  display: block;
   background-repeat: no-repeat;
   background-size: contain;
   width: 18px;
@@ -288,6 +257,7 @@ article:nth-child(odd) .card {
   content: "";
   background-image: url("../icons/arrow_right.svg");
   display: block;
+  display: block;
   background-repeat: no-repeat;
   background-size: contain;
   background-size: auto;
@@ -302,10 +272,6 @@ article:nth-child(odd) .card {
     margin-bottom: 48px; }
   .section__design--image {
     border-radius: 24px; } }
-
-.section__team--images {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
 
 .section__team {
   padding-left: 10px;
@@ -344,7 +310,10 @@ article:nth-child(odd) .card {
   border-radius: 12px; }
 
 .section__team--images img:nth-child(even) {
-  max-width: 144px; }
+  max-width: 144.76px; }
+
+.section__team--images img:nth-child(odd) {
+  max-width: 162.25px; }
 
 .note {
   margin-top: 100px;
@@ -404,3 +373,115 @@ article:nth-child(odd) .card {
     font-size: 18px; }
   .small_image {
     margin-right: 27px; } }
+
+.form__label {
+  font-size: 10px;
+  line-height: 15px;
+  color: #828282; }
+
+.form__button,
+.form__wrapper {
+  border-radius: 12px; }
+
+.form__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #F2F2F2;
+  height: 47px;
+  padding-left: 19px;
+  padding-right: 4px; }
+
+.form__input,
+.form__button {
+  height: 100%;
+  max-height: 39px; }
+
+.form__input {
+  border: solid 1px transparent;
+  background-color: transparent; }
+
+.form__button {
+  font-size: 14px;
+  line-height: 21px;
+  color: #F2F2F2;
+  background: #2D9CDB;
+  border: solid 1px #2D9CDB;
+  max-width: 71px; }
+
+footer {
+  background-color: #100E1D;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 45px;
+  padding-bottom: 45px; }
+
+.footer__wrapper {
+  padding-bottom: 133px; }
+
+.footer__list--item-link {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px; }
+
+.footer__heading {
+  color: #F2F2F2;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 53px; }
+
+.social__media {
+  margin-top: 55px;
+  margin-bottom: 55px; }
+
+.social__media--list-item {
+  text-indent: -9999px; }
+
+.social__media--list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.social__media--link {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px; }
+
+.instagram {
+  background-image: url("../icons/instagram.svg"); }
+
+.linkedin {
+  background-image: url("../icons/linkedin.svg"); }
+
+.twitter {
+  background-image: url("../icons/twitter.svg"); }
+
+.social__media--list-item {
+  margin-right: 11px; }
+
+.developer__wrapper {
+  text-align: center; }
+
+.developer {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: #A9A9A9; }
+
+.developer__paragraph {
+  margin: 0; }
+
+@media (min-width: 300px) {
+  footer {
+    padding-left: 41px;
+    padding-right: 41px; }
+  .footer__heading {
+    font-size: 36px; }
+  .social__media {
+    margin-top: 65px;
+    margin-bottom: 65px; }
+  .developer {
+    font-size: 14px; } }
