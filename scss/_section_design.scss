@@ -46,6 +46,7 @@
     background-image: url("#{$icon-path}arrow_right.svg");
     display: block;
     @include icon-common-props;
+    background-size: auto;
     background-position: right center;
     width: 16px;
     height: 16px;
