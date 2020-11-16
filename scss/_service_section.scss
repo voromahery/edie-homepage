@@ -21,12 +21,18 @@ section article {
     margin-bottom: 43px;
 }
 
-article:nth-child(odd) .card {
+.section__service article:hover .card {
     background: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
     border-radius: 24px;
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 43px;
+    padding-top: 43px;
+    transition: box-shadow ease-in .2s;
+}
+
+.section__service article .card {
     padding-bottom: 43px;
     padding-top: 43px;
 }
@@ -51,15 +57,26 @@ article:nth-child(odd) .card {
     margin-bottom: 30px;
 }
 
-.section__service article:nth-child(even) {
-    padding-left: 10px;
-    padding-right: 10px;
+.section__service article {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.section__service article:nth-child(even) button {
+.section__service article button {
     background: $light-grey;
     border: solid 1px $light-grey;
     color: #828282;
+}
+
+ .section__service article:hover button  {
+    background-color: $primary-color;
+    color: #FFFFFF;
+    border: 1px solid $primary-color;
+}
+
+.section__service article:hover button,
+.section__service article button {
+    transition: all ease-in .2s;
 }
 
 .section__service .card img {
@@ -75,11 +92,19 @@ article:nth-child(odd) .card {
     }
 
     .section__service article {
-        margin-top: 86px;
-        margin-bottom: 86px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    article:nth-child(odd) .card {
+    .section__service article,
+    .section__service article:hover {
+        margin-top: 86px;
+        margin-bottom: 86px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section__service article:hover .card {
         padding-left: 34px;
         padding-right: 34px;  
     }
@@ -90,8 +115,8 @@ article:nth-child(odd) .card {
         border-radius: 16px;
     }
 
-    .section__service article:nth-child(even) {
-        padding-left: 49px;
-        padding-right: 49px;
-    }
+    .section__service article {
+         padding-left: 49px;
+         padding-right: 49px;
+     }
 }
