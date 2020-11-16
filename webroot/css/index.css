@@ -312,15 +312,24 @@ section article {
     padding: 20px;
     border-radius: 16px; } }
 
+@media (min-width: 600px) {
+  .section__service .card {
+    max-width: 341px; }
+  .section__service--wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+
 @media (min-width: 950px) {
   .section__service {
     margin-top: 200px;
     margin-bottom: 200px;
     padding-left: 165px;
-    padding-right: 165px; }
+    padding-right: 165px; } }
+
+@media (min-width: 1200px) {
   .section__service--wrapper {
-    display: flex;
-    flex-direction: row; } }
+    flex-wrap: nowrap; } }
 
 .section__service--heading {
   padding-left: 10px;
