@@ -243,12 +243,9 @@ section article {
   background: #FFFFFF;
   box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
   border-radius: 24px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 43px;
-  padding-top: 43px;
   transition: box-shadow ease-in .2s; }
 
+.section__service article:hover .card,
 .section__service article .card {
   padding-bottom: 43px;
   padding-top: 43px; }
@@ -271,7 +268,8 @@ section article {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-.section__service article {
+.section__service article,
+.section__service .card {
   padding-left: 5px;
   padding-right: 5px; }
 
@@ -306,16 +304,23 @@ section article {
     margin-bottom: 86px;
     padding-left: 15px;
     padding-right: 15px; }
-  .section__service article:hover .card {
+  .section__service article .card {
     padding-left: 34px;
     padding-right: 34px; }
   .section__service .card img {
     max-width: 27px;
     padding: 20px;
-    border-radius: 16px; }
-  .section__service article {
-    padding-left: 49px;
-    padding-right: 49px; } }
+    border-radius: 16px; } }
+
+@media (min-width: 950px) {
+  .section__service {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 165px;
+    padding-right: 165px; }
+  .section__service--wrapper {
+    display: flex;
+    flex-direction: row; } }
 
 .section__service--heading {
   padding-left: 10px;
