@@ -1,9 +1,13 @@
 @import "./variable.scss";
 
 body {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: 'myPoppins', Arial, Helvetica, sans-serif;
     color: $heading-color;
     margin: auto;
+}
+
+h1 {
+    font-family: 'myHeebo';
 }
 
 ul {
