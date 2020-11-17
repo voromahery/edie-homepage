@@ -5,6 +5,12 @@
     padding-right: 14px;
 }
 
+.section__design--heading {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+}
+
 .section__design--design {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -61,5 +67,48 @@
 
     .section__design--image {
         border-radius: 24px;
+    }
+}
+
+@media (min-width: 950px) {
+    .section__design {
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .images__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .section__design--heading {
+        font-size: 36px;
+        max-width: 448px;
+    }
+
+    .about-the-app {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .name-of-app {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .more__link {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .section__design--design:nth-child(even) {
+        margin-bottom: 105px;
+        margin-top: 0;
+    }
+
+    .section__design--design:nth-child(odd) {
+        margin-top: 105px;
+        margin-bottom: 0;
     }
 }
