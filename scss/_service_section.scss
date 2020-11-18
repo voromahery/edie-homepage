@@ -114,15 +114,19 @@ section article {
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
     .section__service .card {
-        max-width: 341px;
+        max-width: 300px;
     }
 
     .section__service--wrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .section__service {
+        padding-left: calc(165px / 2);
+        padding-right: calc(165px / 2);
     }
 }
 
@@ -136,9 +140,12 @@ section article {
     }
 }
 
-
 @media (min-width: 1200px) {
     .section__service--wrapper {
         flex-wrap: nowrap;
+    }
+
+    .section__service .card {
+        max-width: 341px;
     }
 }

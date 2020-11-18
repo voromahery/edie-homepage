@@ -89,6 +89,14 @@
     }
  }
 
+ 
+ @media (min-width: 650px) {
+    .header__article,
+    .header__wrapper div {
+        padding-left: calc(227px / 2);
+        padding-right: calc(227px / 2);
+    }
+ }
 
  @media (min-width: 950px) {
     .masthead__title {

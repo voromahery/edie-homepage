@@ -141,6 +141,13 @@
     }
 }
 
+@media (min-width: 650px) {
+    .section__team {
+        padding-left: calc(165px / 2);
+        padding-right: calc(165px / 2);
+    }
+}
+
 @media (min-width: 950px) {
     .section__team {
         padding-left: 165px;

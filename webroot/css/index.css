@@ -123,6 +123,12 @@ figure {
     padding-left: 40px;
     padding-right: 40px; } }
 
+@media (min-width: 650px) {
+  .header__article,
+  .header__wrapper div {
+    padding-left: calc(227px / 2);
+    padding-right: calc(227px / 2); } }
+
 @media (min-width: 950px) {
   .masthead__title {
     font-size: 36px;
@@ -312,13 +318,16 @@ section article {
     padding: 20px;
     border-radius: 16px; } }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   .section__service .card {
-    max-width: 341px; }
+    max-width: 300px; }
   .section__service--wrapper {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .section__service {
+    padding-left: calc(165px / 2);
+    padding-right: calc(165px / 2); } }
 
 @media (min-width: 950px) {
   .section__service {
@@ -329,7 +338,9 @@ section article {
 
 @media (min-width: 1200px) {
   .section__service--wrapper {
-    flex-wrap: nowrap; } }
+    flex-wrap: nowrap; }
+  .section__service .card {
+    max-width: 341px; } }
 
 .section__service--heading {
   padding-left: 10px;
@@ -410,14 +421,30 @@ section article {
   .section__design--image {
     border-radius: 24px; } }
 
-@media (min-width: 950px) {
-  .section__design {
-    padding-left: 165px;
-    padding-right: 165px; }
+@media (min-width: 650px) {
   .images__wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px; }
+  .section__design--design:nth-child(even) {
+    margin-bottom: 105px;
+    margin-top: 0; }
+  .section__design--design:nth-child(odd) {
+    margin-top: 105px;
+    margin-bottom: 0; }
+  .more {
+    grid-column: 1/3;
+    justify-self: end;
+    position: relative;
+    top: -70px; }
+  .section__design {
+    padding-left: calc(165px / 2);
+    padding-right: calc(165px / 2); } }
+
+@media (min-width: 950px) {
+  .section__design {
+    padding-left: 165px;
+    padding-right: 165px; }
   .section__design--heading {
     font-size: 36px;
     max-width: 448px; }
@@ -427,20 +454,9 @@ section article {
   .name-of-app {
     font-size: 24px;
     line-height: 36px; }
-  .more {
-    grid-column: 1/3;
-    justify-self: end;
-    position: relative;
-    top: -70px; }
   .more__link {
     font-size: 24px;
-    line-height: 36px; }
-  .section__design--design:nth-child(even) {
-    margin-bottom: 105px;
-    margin-top: 0; }
-  .section__design--design:nth-child(odd) {
-    margin-top: 105px;
-    margin-bottom: 0; } }
+    line-height: 36px; } }
 
 .section__team {
   padding-left: 10px;
@@ -547,6 +563,11 @@ section article {
     font-size: 18px; }
   .small_image {
     margin-right: 27px; } }
+
+@media (min-width: 650px) {
+  .section__team {
+    padding-left: calc(165px / 2);
+    padding-right: calc(165px / 2); } }
 
 @media (min-width: 950px) {
   .section__team {
@@ -668,6 +689,7 @@ footer {
   text-align: center; }
 
 .developer {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 17px;
