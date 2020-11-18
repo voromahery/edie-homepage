@@ -28,6 +28,7 @@ footer {
     font-size: 30px;
     font-weight: 800;
     line-height: 53px;
+    margin: auto;
 }
 
 .social__media {
@@ -100,5 +101,51 @@ footer {
 
     .developer {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 650px) {
+    .footer__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer__navigation {
+        flex-basis: 50%;
+    }
+
+    .social__media {
+        flex-basis: 50%;
+    }
+
+    .footer__form {
+        flex-basis: 100%;
+    }
+
+    
+    .social__media {
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 950px) {
+    .footer {
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .footer__navigation {
+        flex-basis: 25%;
+    }
+
+    .social__media {
+        flex-basis: 25%;
+    }
+
+    .footer__form {
+        flex-basis: 30%;
     }
 }
