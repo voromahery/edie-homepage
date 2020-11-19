@@ -61,7 +61,7 @@
 
 @media (min-width: 300px) {
     .section__design--heading {
-        font-size: 36px;
+        font-size: $font-size-medium;
     }
 
     .section__design--design {
@@ -112,7 +112,8 @@
     }
 
     .section__design--heading {
-        font-size: 36px;
+        line-height: 54px;
+        font-size: $font-size-large;
         max-width: 448px;
     }
 
@@ -122,7 +123,7 @@
     }
 
     .name-of-app {
-        font-size: 24px;
+        font-size: $font-size-medium;
         line-height: 36px;
     }
 

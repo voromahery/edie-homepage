@@ -419,7 +419,7 @@ section article {
 
 @media (min-width: 300px) {
   .section__design--heading {
-    font-size: 36px; }
+    font-size: 24px; }
   .section__design--design {
     margin-top: 48px;
     margin-bottom: 48px; }
@@ -451,6 +451,7 @@ section article {
     padding-left: 165px;
     padding-right: 165px; }
   .section__design--heading {
+    line-height: 54px;
     font-size: 36px;
     max-width: 448px; }
   .about-the-app {
