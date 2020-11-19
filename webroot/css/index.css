@@ -576,7 +576,8 @@ section article {
     padding-right: calc($padding-large-right / 2); }
   .section__team--wrapper {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    gap: 20px; }
   .section__team--article {
     max-width: 280px;
     margin-right: auto; } }
