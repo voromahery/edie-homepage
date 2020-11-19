@@ -146,13 +146,6 @@
         padding-left: calc($padding-large-left / 2);
         padding-right: calc($padding-large-right / 2);
     }
-}
-
-@media (min-width: 950px) {
-    .section__team {
-        padding-left: $padding-large-left;
-        padding-right: $padding-large-right;
-    }
 
     .section__team--wrapper {
         display: flex;
@@ -162,6 +155,13 @@
     .section__team--article {
         max-width: 280px;
         margin-right: auto;
+    }
+}
+
+@media (min-width: 950px) {
+    .section__team {
+        padding-left: $padding-large-left;
+        padding-right: $padding-large-right;
     }
 
     .quote {

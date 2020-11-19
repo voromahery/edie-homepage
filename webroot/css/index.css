@@ -573,18 +573,18 @@ section article {
 @media (min-width: 650px) {
   .section__team {
     padding-left: calc($padding-large-left / 2);
-    padding-right: calc($padding-large-right / 2); } }
-
-@media (min-width: 950px) {
-  .section__team {
-    padding-left: 165px;
-    padding-right: 165px; }
+    padding-right: calc($padding-large-right / 2); }
   .section__team--wrapper {
     display: flex;
     align-items: center; }
   .section__team--article {
     max-width: 280px;
-    margin-right: auto; }
+    margin-right: auto; } }
+
+@media (min-width: 950px) {
+  .section__team {
+    padding-left: 165px;
+    padding-right: 165px; }
   .quote {
     max-width: 937px;
     margin-top: 54px;
