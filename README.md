@@ -99,4 +99,3 @@ $ npm start
 -   Website [your-website.com](https://{your-web-site-link})
 -   GitHub [@your-username](https://{github.com/your-usermame})
 -   Twitter [@your-twitter](https://{twitter.com/your-username})
-https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1

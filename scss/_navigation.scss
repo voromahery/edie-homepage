@@ -67,6 +67,10 @@ body > .toggle_menu:checked ~ .masthead .menu  {
         flex-basis: 50%;
     }
 
+    .navigation a {
+        font-size: 24px;
+       }
+
     .navigation__list {
         display: flex;
         flex-direction: row;
