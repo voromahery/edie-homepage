@@ -43,6 +43,11 @@
     max-width: 71px;
  }
 
+ @media (min-width: 650px) {
+     .form__wrapper {
+         max-width: 400px;
+     }
+ }
 
  @media (min-width: 950px) {
      

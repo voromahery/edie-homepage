@@ -7,8 +7,8 @@
 .navigation {
     display: none;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 12px;
+    line-height: 18px;
     color: #333333;
     transform: translateX(100%);
     transition: all ease-in .2s;
@@ -59,8 +59,7 @@ body > .toggle_menu:checked ~ .masthead .menu  {
     }
 }
 
-
-@media (min-width: 950px) {
+@media (min-width: 600px) {
     .navigation {
         display: block;
         position: unset;
@@ -76,5 +75,12 @@ body > .toggle_menu:checked ~ .masthead .menu  {
 
     .menu {
         display: none;
+    }
+}
+
+@media (min-width: 950px) {
+    .navigation {
+        font-size: 18px;
+        line-height: 36px;
     }
 }

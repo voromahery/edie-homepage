@@ -99,16 +99,16 @@
     }
 
     .section__design {
-        padding-left: calc(165px / 2);
-        padding-right: calc(165px / 2);
+        padding-left: calc($padding-large-left / 2);
+        padding-right: calc($padding-large-right / 2);
     }
 
 }
 
 @media (min-width: 950px) {
     .section__design {
-        padding-left: 165px;
-        padding-right: 165px;
+        padding-left: $padding-large-left;
+        padding-right: $padding-large-right;
     }
 
     .section__design--heading {

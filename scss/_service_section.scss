@@ -125,8 +125,8 @@ section article {
         flex-wrap: wrap;
     }
     .section__service {
-        padding-left: calc(165px / 2);
-        padding-right: calc(165px / 2);
+        padding-left: calc($padding-large-left / 2);
+        padding-right: calc($padding-large-right / 2);
     }
 }
 
@@ -135,8 +135,8 @@ section article {
     .section__service {
         margin-top: 200px;
         margin-bottom: 200px;
-        padding-left: 165px;
-        padding-right: 165px;
+        padding-left: $padding-large-left;
+        padding-right: $padding-large-right;
     }
 }
 
