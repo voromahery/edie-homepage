@@ -41,7 +41,7 @@
 }
 
 .team__image {
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .note {
@@ -104,6 +104,10 @@
     .section__team--heading {
         font-size: 36px;
         line-height: 54px;
+    }
+
+    .team__image {
+        border-radius: 12px;
     }
 
     .section__team--head {
