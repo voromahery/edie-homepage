@@ -102,7 +102,7 @@ figure {
   margin-bottom: 22px; }
 
 .header__image {
-  border-radius: 18px; }
+  border-radius: 9px; }
 
 .header__article--paragraph {
   font-weight: 400;
@@ -114,6 +114,8 @@ figure {
 @media (min-width: 300px) {
   main {
     margin-top: 48px; }
+  .header__image {
+    border-radius: 18px; }
   .masthead,
   .header figure {
     padding-left: 10px;
