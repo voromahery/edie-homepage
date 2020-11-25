@@ -623,7 +623,8 @@ section article {
 .form__input,
 .form__button {
   height: 100%;
-  max-height: 39px; }
+  max-height: 39px;
+  outline: #2D9CDB; }
 
 .form__input {
   border: solid 1px transparent;
