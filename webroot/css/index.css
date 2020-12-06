@@ -219,7 +219,7 @@ body > .toggle_menu:checked ~ .masthead .menu {
     transform: unset;
     flex-basis: 50%; }
   .navigation a {
-    font-size: 24px; }
+    font-size: 12px; }
   .navigation__list {
     display: flex;
     flex-direction: row;
@@ -228,7 +228,7 @@ body > .toggle_menu:checked ~ .masthead .menu {
     display: none; } }
 
 @media (min-width: 950px) {
-  .navigation {
+  .navigation a {
     font-size: 18px;
     line-height: 36px; } }
 

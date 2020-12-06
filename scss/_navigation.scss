@@ -68,7 +68,7 @@ body > .toggle_menu:checked ~ .masthead .menu  {
     }
 
     .navigation a {
-        font-size: 24px;
+        font-size: 12px;
        }
 
     .navigation__list {
@@ -83,7 +83,7 @@ body > .toggle_menu:checked ~ .masthead .menu  {
 }
 
 @media (min-width: 950px) {
-    .navigation {
+    .navigation a{
         font-size: 18px;
         line-height: 36px;
     }
