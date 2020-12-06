@@ -1,90 +1,85 @@
 @import "./variable.scss";
 
 .toggle_menu {
-    display: none;
+  display: none;
 }
 
 .navigation {
-    display: none;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #333333;
-    transform: translateX(100%);
-    transition: all ease-in .2s;
+  display: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+  transform: translateX(100%);
+  transition: all ease-in 0.2s;
 }
 
 .list__item--link {
-    color: #333333;
+  color: #333333;
 }
 
 .menu {
-    background-image: url("#{$icon-path}menu.svg");
-    @include icon-common-props;
-    width: 18px;
-    height: 18px;
-    text-indent: -9999px;
-    cursor: pointer;
+  background-image: url("#{$icon-path}menu.svg");
+  @include icon-common-props;
+  width: 18px;
+  height: 18px;
+  text-indent: -9999px;
+  cursor: pointer;
 }
 
-body > .toggle_menu:checked ~ .masthead .navigation  {
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 3;
-    background: #FFFFFF;
-    padding: 1rem;
-    border-bottom-left-radius: 30px;
-    transform: translateX(0%);
-    transition: all ease-in .2s;
+body > .toggle_menu:checked ~ .masthead .navigation {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  background: #ffffff;
+  padding: 1rem;
+  border-bottom-left-radius: 30px;
+  transform: translateX(0%);
+  transition: all ease-in 0.2s;
 }
 
-body > .toggle_menu:checked ~ .masthead .menu  {
-    background-image: unset;
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0 ,0.5);
-    z-index: 2;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
+body > .toggle_menu:checked ~ .masthead .menu {
+  background-image: unset;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
-
 
 @media (min-width: 300px) {
-    .navigation {
-       background-size: 100%;
-    }
+  .navigation {
+    background-size: 100%;
+  }
 }
 
 @media (min-width: 600px) {
-    .navigation {
-        display: block;
-        position: unset;
-        transform: unset;
-        flex-basis: 50%;
-    }
+  .navigation {
+    display: block;
+    position: unset;
+    transform: unset;
+    flex-basis: 50%;
+  }
 
-    .navigation a {
-        font-size: 12px;
-       }
+  .navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .navigation__list {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .menu {
-        display: none;
-    }
+  .menu {
+    display: none;
+  }
 }
 
 @media (min-width: 950px) {
-    .navigation a{
-        font-size: 18px;
-        line-height: 36px;
-    }
+  .navigation a {
+    font-size: 18px;
+    line-height: 36px;
+  }
 }

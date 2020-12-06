@@ -170,7 +170,7 @@ figure {
   line-height: 18px;
   color: #333333;
   transform: translateX(100%);
-  transition: all ease-in .2s; }
+  transition: all ease-in 0.2s; }
 
 .list__item--link {
   color: #333333; }
@@ -191,11 +191,11 @@ body > .toggle_menu:checked ~ .masthead .navigation {
   top: 0;
   right: 0;
   z-index: 3;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 1rem;
   border-bottom-left-radius: 30px;
   transform: translateX(0%);
-  transition: all ease-in .2s; }
+  transition: all ease-in 0.2s; }
 
 body > .toggle_menu:checked ~ .masthead .menu {
   background-image: unset;
@@ -218,8 +218,6 @@ body > .toggle_menu:checked ~ .masthead .menu {
     position: unset;
     transform: unset;
     flex-basis: 50%; }
-  .navigation a {
-    font-size: 12px; }
   .navigation__list {
     display: flex;
     flex-direction: row;
