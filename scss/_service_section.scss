@@ -72,6 +72,8 @@ section article {
     border: 1px solid $primary-color;
 }
 
+.section__service .card:hover,
+.section__service .card,
 .section__service article:hover button,
 .section__service article button {
     transition: all ease-in .2s;

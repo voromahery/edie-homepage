@@ -44,6 +44,15 @@
     max-width: 71px;
  }
 
+ .form__button:hover {
+     background-color: #2587be;
+ }
+
+ .form__button,
+ .form__button:hover {
+     transition: all ease-in .2s;
+ }
+
  @media (min-width: 650px) {
      .form__wrapper {
          max-width: 400px;
