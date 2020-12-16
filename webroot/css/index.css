@@ -693,7 +693,7 @@ footer {
 .footer__list--item-link {
   color: #ffffff;
   font-weight: 400;
-  font-size: 18px; }
+  font-size: 16px; }
 
 .footer__list--item-link:hover {
   color: #007fe4; }
@@ -763,6 +763,8 @@ footer {
   footer {
     padding-left: 41px;
     padding-right: 41px; }
+  .footer__list--item-link {
+    font-size: 18px; }
   .footer__heading a {
     font-size: 36px; }
   .social__media {
