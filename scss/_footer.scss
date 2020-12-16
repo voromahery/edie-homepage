@@ -34,7 +34,7 @@ footer {
   transition: all ease-in 0.2s;
 }
 
-.footer__heading {
+.footer__heading a {
   color: $white;
   font-size: 30px;
   font-weight: 800;
@@ -106,7 +106,7 @@ footer {
     padding-right: 41px;
   }
 
-  .footer__heading {
+  .footer__heading a {
     font-size: $font-size-large;
   }
 
