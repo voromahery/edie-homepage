@@ -29,6 +29,9 @@ body {
   max-width: 1440px;
   margin: auto; }
 
+* {
+  color: #333333; }
+
 h1 {
   font-family: 'myHeebo', Arial, Helvetica, sans-serif; }
 

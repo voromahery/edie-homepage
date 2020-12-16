@@ -1,231 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Edie Homepage</title>
-</head>
+  </head>
 
-<body>
-    <input type="checkbox" class="toggle_menu" id="toggle_menu" name="toggle_menu">
+  <body>
+    <input
+      type="checkbox"
+      class="toggle_menu"
+      id="toggle_menu"
+      name="toggle_menu"
+    />
     <header class="masthead">
-        <h1 class="masthead__title">Edie</h1>
-        <label for="toggle_menu" class="menu">
-            <span class="menu__text">menu</span>
-        </label>
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__list--item">
-                    <a href="/" class="list__item--link">Home</a>
-                </li>
-                <li class="navigation__list--item">
-                    <a href="/services" class="list__item--link">Services</a>
-                </li>
-                <li class="navigation__list--item">
-                    <a href="our-works" class="list__item--link">Our works</a>
-                </li>
-                <li class="navigation__list--item">
-                    <a href="clients" class="list__item--link">Clients</a>
-                </li>
-                <li class="navigation__list--item">
-                    <a href="contsct" class="list__item--link">Contact</a>
-                </li>
-            </ul>
-        </nav>
+      <h1 class="masthead__title">
+        <a href=""> Edie </a>
+      </h1>
+      <label for="toggle_menu" class="menu">
+        <span class="menu__text">menu</span>
+      </label>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list--item">
+            <a href="/" class="list__item--link">Home</a>
+          </li>
+          <li class="navigation__list--item">
+            <a href="/services" class="list__item--link">Services</a>
+          </li>
+          <li class="navigation__list--item">
+            <a href="our-works" class="list__item--link">Our works</a>
+          </li>
+          <li class="navigation__list--item">
+            <a href="clients" class="list__item--link">Clients</a>
+          </li>
+          <li class="navigation__list--item">
+            <a href="contsct" class="list__item--link">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <header class="header">
-            <div class="header__wrapper">
-                <div>
-                    <p class="header__intro">Unhappy with your website?</p>
-                    <h2 class="header__intro--heading">We create beautiful and fast web services</h2>
-                </div>
-                <figure class="">
-                    <img src="./images/heroImage.webp" class="header__image" alt="a-man-eplains-something" />
-                </figure>
+      <header class="header">
+        <div class="header__wrapper">
+          <div>
+            <p class="header__intro">Unhappy with your website?</p>
+            <h2 class="header__intro--heading">
+              We create beautiful and fast web services
+            </h2>
+          </div>
+          <figure class="">
+            <img
+              src="./images/heroImage.webp"
+              class="header__image"
+              alt="a-man-eplains-something"
+            />
+          </figure>
+        </div>
+        <article class="header__article">
+          <h2 class="header__article--heading">Story, emotion and purpose</h2>
+          <p class="header__article--paragraph">
+            We help transform your ideas into real world applications that will
+            outperform your toughest competition and help you achieve your
+            strategic goals in short period of time.
+          </p>
+          <form class="header__form form">
+            <label for="email" class="header__form--label form__label"
+              >Want us to contact you?</label
+            >
+            <div class="form__wrapper">
+              <input
+                type="text"
+                id="email"
+                class="header__input form__input"
+                placeholder="Email"
+              />
+              <button class="form__button">Join</button>
             </div>
-            <article class="header__article">
-                <h2 class="header__article--heading">Story, emotion and purpose</h2>
-                <p class="header__article--paragraph">
-                    We help transform your ideas into real world applications that will outperform your toughest
-                    competition and help you achieve your strategic goals in short period of time.
-                </p>
-                <form class="header__form form">
-                    <label for="email" class="header__form--label form__label">Want us to contact you?</label>
-                    <div class="form__wrapper">
-                        <input type="text" id="email" class="header__input form__input" placeholder="Email">
-                        <button class="form__button">Join</button>
-                    </div>
-                </form>
-            </article>
+          </form>
+        </article>
+      </header>
+      <section class="section__service">
+        <header class="section__service--header">
+          <h2 class="section__service--heading">
+            We offer high demand services
+          </h2>
         </header>
-        <section class="section__service">
-            <header class="section__service--header">
-                <h2 class="section__service--heading">We offer high demand services</h2>
-            </header>
-            <div class="section__service--wrapper">
-                <article class="article__design">
-                    <div class="card">
-                        <img src="./icons/create.svg" class="create_icon" alt="create-icon">
-                        <h3 class="article__design--heading">UI/UX Design</h3>
-                        <p class="article__design--paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
-                            aliquet
-                            id
-                            quis turpis.
-                        </p>
-                        <button class="article__design--button card-button">Get started</button>
-                    </div>
-                </article>
-                <article class="article__front-end">
-                    <div class="card">
-                        <img src="./icons/code.svg" class="code_icon" alt="code_tag">
-                        <h3 class="article__front-end--heading">Front End</h3>
-                        <p class="article__front-end--paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
-                            aliquet
-                            id quis turpis.
-                        </p>
-                        <button class="article__front-end--button card-button">Get started</button>
-                    </div>
-                </article>
-                <article class="article__back-end">
-                    <div class="card">
-                        <img src="./icons/storage.svg" class="storage_icon" alt="storage">
-                        <h3 class="article__back-end--heading">Back End</h3>
-                        <p class="article__back-end--paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
-                            aliquet
-                            id quis turpis.
-                        </p>
-                        <button class="article__back-end--button card-button">Get started</button>
-                    </div>
-                </article>
+        <div class="section__service--wrapper">
+          <article class="article__design">
+            <div class="card">
+              <img
+                src="./icons/create.svg"
+                class="create_icon"
+                alt="create-icon"
+              />
+              <h3 class="article__design--heading">UI/UX Design</h3>
+              <p class="article__design--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <button class="article__design--button card-button">
+                Get started
+              </button>
             </div>
-        </section>
-        <section class="section__design">
-            <header>
-                <h2 class="section__design--heading">Good design means good business</h2>
-            </header>
-            <div class="images__wrapper">
-                <div class="section__design--design">
-                    <figure>
-                        <img src="./images/smarthome.webp" class="section__design--image" alt="black-dash-board">
-                        <figcaption class="about-the-app">Full stack application</figcaption>
-                    </figure>
-                    <h3 class="name-of-app">Smart home dashboard</h3>
-                </div>
+          </article>
+          <article class="article__front-end">
+            <div class="card">
+              <img src="./icons/code.svg" class="code_icon" alt="code_tag" />
+              <h3 class="article__front-end--heading">Front End</h3>
+              <p class="article__front-end--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <button class="article__front-end--button card-button">
+                Get started
+              </button>
+            </div>
+          </article>
+          <article class="article__back-end">
+            <div class="card">
+              <img
+                src="./icons/storage.svg"
+                class="storage_icon"
+                alt="storage"
+              />
+              <h3 class="article__back-end--heading">Back End</h3>
+              <p class="article__back-end--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <button class="article__back-end--button card-button">
+                Get started
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section__design">
+        <header>
+          <h2 class="section__design--heading">
+            Good design means good business
+          </h2>
+        </header>
+        <div class="images__wrapper">
+          <div class="section__design--design">
+            <figure>
+              <img
+                src="./images/smarthome.webp"
+                class="section__design--image"
+                alt="black-dash-board"
+              />
+              <figcaption class="about-the-app">
+                Full stack application
+              </figcaption>
+            </figure>
+            <h3 class="name-of-app">Smart home dashboard</h3>
+          </div>
 
-                <div class="section__design--design">
-                    <figure>
-                        <img src="./images/onboard.webp" class="section__design--image" alt="design">
-                        <figcaption class="about-the-app">UX/UI design</figcaption>
-                    </figure>
-                    <h3 class="name-of-app">Onboard application</h3>
-                </div>
+          <div class="section__design--design">
+            <figure>
+              <img
+                src="./images/onboard.webp"
+                class="section__design--image"
+                alt="design"
+              />
+              <figcaption class="about-the-app">UX/UI design</figcaption>
+            </figure>
+            <h3 class="name-of-app">Onboard application</h3>
+          </div>
 
-                <div class="section__design--design">
-                    <figure>
-                        <img src="./images/booking.webp" class="section__design--image" alt="booking">
-                        <figcaption class="about-the-app">Mobile application</figcaption>
-                    </figure>
-                    <h3 class="name-of-app">Booking system</h3>
-                </div>
+          <div class="section__design--design">
+            <figure>
+              <img
+                src="./images/booking.webp"
+                class="section__design--image"
+                alt="booking"
+              />
+              <figcaption class="about-the-app">Mobile application</figcaption>
+            </figure>
+            <h3 class="name-of-app">Booking system</h3>
+          </div>
 
-                <div class="section__design--design">
-                    <figure>
-                        <img src="./images/juice-product.webp" class="section__design--image" alt="greeny-juice">
-                        <figcaption class="about-the-app">Front End application</figcaption>
-                    </figure>
-                    <h3 class="name-of-app">Juice product homepage</h3>
-                </div>
-                <p class="more">
-                    <a href="/more" class="more__link">see more</a>
-                </p>
+          <div class="section__design--design">
+            <figure>
+              <img
+                src="./images/juice-product.webp"
+                class="section__design--image"
+                alt="greeny-juice"
+              />
+              <figcaption class="about-the-app">
+                Front End application
+              </figcaption>
+            </figure>
+            <h3 class="name-of-app">Juice product homepage</h3>
+          </div>
+          <p class="more">
+            <a href="/more" class="more__link">see more</a>
+          </p>
+        </div>
+      </section>
+      <section class="section__team">
+        <div class="section__team--wrapper">
+          <article class="section__team--article">
+            <p class="section__team--head">Meet the team</p>
+            <h2 class="section__team--heading">
+              We are chilled and a laidback team
+            </h2>
+            <p class="section__team--paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+          <figure class="section__team--images">
+            <img
+              src="./images/person3.webp"
+              class="team__image person3"
+              alt="person"
+            />
+            <img
+              src="./images/person1.webp"
+              class="team__image person1"
+              alt="person"
+            />
+            <img
+              src="./images/person2.webp"
+              class="team__image person2"
+              alt="person"
+            />
+          </figure>
+        </div>
+        <div class="note">
+          <blockquote class="quote">
+            <h4>
+              “Fast and outstanding resutls. Edie understands their customer’s
+              needs. They have a young and talented team.”
+            </h4>
+          </blockquote>
+          <div class="person__wrapper">
+            <img
+              src="./images/person4.webp"
+              class="small_image"
+              alt="carlos-tran"
+            />
+            <div class="person__about">
+              <span class="person__about--name">Carlos Tran</span>
+              <span class="person__about--activity">The Decorate Gatsby</span>
             </div>
-        </section>
-        <section class="section__team">
-            <div class="section__team--wrapper">
-                <article class="section__team--article">
-                    <p class="section__team--head">Meet the team</p>
-                    <h2 class="section__team--heading">We are chilled and a laidback team</h2>
-                    <p class="section__team--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </article>
-                <figure class="section__team--images">
-                    <img src="./images/person3.webp" class="team__image person3" alt="person">
-                    <img src="./images/person1.webp" class="team__image person1" alt="person">
-                    <img src="./images/person2.webp" class="team__image person2" alt="person">
-                </figure>
-            </div>
-            <div class="note">
-                <blockquote class="quote">
-                    <h4>
-                        “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    
-                    </h4>
-                </blockquote>
-                <div class="person__wrapper">
-                    <img src="./images/person4.webp" class="small_image" alt="carlos-tran">
-                    <div class="person__about">
-                        <span class="person__about--name">Carlos Tran</span>
-                        <span class="person__about--activity">The Decorate Gatsby</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer__wrapper">
-            <div class="footer__navigation">
-                <ul class="footer__navigation--list">
-                    <li class="footer__navigation--list-item">
-                        <a href="" class="footer__list--item-link">Home</a>
-                    </li>
-                    <li class="footer__navigation--list-item">
-                        <a href="/services" class="footer__list--item-link">Services</a>
-                    </li>
-                    <li class="footer__navigation--list-item">
-                        <a href="/our-works" class="footer__list--item-link">Our Works</a>
-                    </li>
-                    <li class="footer__navigation--list-item">
-                        <a href="/clients" class="footer__list--item-link">Clients</a>
-                    </li>
-                    <li class="footer__navigation--list-item">
-                        <a href="/contact" class="footer__list--item-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="footer__wrapper">
+        <div class="footer__navigation">
+          <ul class="footer__navigation--list">
+            <li class="footer__navigation--list-item">
+              <a href="" class="footer__list--item-link">Home</a>
+            </li>
+            <li class="footer__navigation--list-item">
+              <a href="/services" class="footer__list--item-link">Services</a>
+            </li>
+            <li class="footer__navigation--list-item">
+              <a href="/our-works" class="footer__list--item-link">Our Works</a>
+            </li>
+            <li class="footer__navigation--list-item">
+              <a href="/clients" class="footer__list--item-link">Clients</a>
+            </li>
+            <li class="footer__navigation--list-item">
+              <a href="/contact" class="footer__list--item-link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-            <div class="social__media">
-                <h1 class="footer__heading">Edie</h1>
-                <ul class="social__media--list">
-                    <li class="social__media--list-item">
-                        <a href="/instagram.com" class="social__media--link instagram">Instagram</a>
-                    </li>
-                    <li class="social__media--list-item">
-                        <a href="/linkedin.com" class="social__media--link linkedin">Linkedin </a>
-                    </li>
-                    <li class="social__media--list-item">
-                        <a href="twitter" class="social__media--link twitter">Twitter</a>
-                    </li>
-                </ul>
-            </div>
-            <form class="footer__form form">
-                <label for="email" class="footer__form--label form__label">Want us to contact you?</label>
-                <div class="form__wrapper">
-                    <input type="text" id="email" class="footer__input form__input" placeholder="Email">
-                    <button class="form__button">Join</button>
-                </div>
-            </form>
+        <div class="social__media">
+          <h1 class="footer__heading">
+            <a href="">Edie</a>
+          </h1>
+          <ul class="social__media--list">
+            <li class="social__media--list-item">
+              <a href="/instagram.com" class="social__media--link instagram"
+                >Instagram</a
+              >
+            </li>
+            <li class="social__media--list-item">
+              <a href="/linkedin.com" class="social__media--link linkedin"
+                >Linkedin
+              </a>
+            </li>
+            <li class="social__media--list-item">
+              <a href="twitter" class="social__media--link twitter">Twitter</a>
+            </li>
+          </ul>
         </div>
-        <div class="developer__wrapper">
-            <p class="developer__paragraph">
-                <a href="https://daniel-fabrice-website.netlify.app/" class="developer">H. Daniel Fabrice @
-                    DevChallenges.io</a>
-            </p>
-        </div>
+        <form class="footer__form form">
+          <label for="email" class="footer__form--label form__label"
+            >Want us to contact you?</label
+          >
+          <div class="form__wrapper">
+            <input
+              type="text"
+              id="email"
+              class="footer__input form__input"
+              placeholder="Email"
+            />
+            <button class="form__button">Join</button>
+          </div>
+        </form>
+      </div>
+      <div class="developer__wrapper">
+        <p class="developer__paragraph">
+          <a
+            href="https://daniel-fabrice-website.netlify.app/"
+            class="developer"
+            >H. Daniel Fabrice @ DevChallenges.io</a
+          >
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

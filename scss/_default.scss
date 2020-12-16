@@ -7,6 +7,10 @@ body {
     margin: auto;
 }
 
+* {
+    color: $heading-color;   
+}
+
 h1 {
     font-family: 'myHeebo', Arial, Helvetica, sans-serif;
 }
