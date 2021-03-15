@@ -24,13 +24,13 @@
   font-weight: 800; }
 
 body {
-  font-family: 'myPoppins', Arial, Helvetica, sans-serif;
+  font-family: "myPoppins", Arial, Helvetica, sans-serif;
   color: #333333;
   max-width: 1440px;
   margin: auto; }
 
 h1 {
-  font-family: 'myHeebo', Arial, Helvetica, sans-serif; }
+  font-family: "myHeebo", Arial, Helvetica, sans-serif; }
 
 ul {
   list-style: none;
@@ -50,6 +50,24 @@ input {
 
 figure {
   margin: 0; }
+
+::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bdbdbd; }
+
+::-moz-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bdbdbd; }
+
+::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bdbdbd; }
 
 .masthead {
   position: relative;
