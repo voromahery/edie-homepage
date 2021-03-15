@@ -24,13 +24,13 @@
   font-weight: 800; }
 
 body {
-  font-family: "myPoppins", Arial, Helvetica, sans-serif;
+  font-family: "Poppins", "myPoppins", Arial, Helvetica, sans-serif;
   color: #333333;
   max-width: 1440px;
   margin: auto; }
 
 h1 {
-  font-family: "myHeebo", Arial, Helvetica, sans-serif; }
+  font-family: "Heebo", "myHeebo", Arial, Helvetica, sans-serif; }
 
 ul {
   list-style: none;
